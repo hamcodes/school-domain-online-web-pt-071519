@@ -1,3 +1,4 @@
+  class School
   def initialize(name) #why isn't grade here?
     @name = name
     @roster = {}
