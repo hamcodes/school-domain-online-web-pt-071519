@@ -1,10 +1,10 @@
-  class School
-  def initialize(name) #why isn't grade here?
+class School
+  def initialize(name) 
     @name = name
     @roster = {}
   end
 
-  def roster #why do you need a reader method for this?
+  def roster 
     @roster
   end
 
